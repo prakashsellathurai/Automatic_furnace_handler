@@ -55,7 +55,7 @@ void doAction () {
     digitalWrite(LED_PIN, HIGH);
     delay(delayTime);
     digitalWrite(LED_PIN, LOW);
- 
+     delay(delayTime);
 }
 boolean readButtonState () {
 
